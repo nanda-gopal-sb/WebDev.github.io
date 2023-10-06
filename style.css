@@ -1,3 +1,9 @@
+*
+{
+    padding : 0 ; 
+    margin : 0 ; 
+}
+
 .heading
 {
     font-size : 17px;
@@ -10,7 +16,7 @@
 .list
 {
     list-style: none;
-    color : brown;
+    color : rgb(238, 207, 121);
     display : flex;
     width: 50%;
     justify-content: space-between;
@@ -57,5 +63,36 @@
     justify-content: space-between;
     
      
+}
+.heading2
+{
+     color : brown;
+     font-size : 50px;
+     padding-left : 30% ; 
+
+}
+.heading3
+{
+    color : gold;
+    padding-left : 39%;
+}
+.aboutMe
+{
+    color : darkcyan;
+    padding-left : 5%;
+
+}
+.para
+{
+    font-size : 25px; 
+    justify-content: center;
+}
+.text
+{
+    display : flex;
+}
+.image
+{
+    padding-left : 90px; 
 }
 

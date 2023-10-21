@@ -8,21 +8,16 @@
 {
     font-size : 17px;
     color : burlywood;
-    font-style: normal;
-    
-    
-        
+    font-style: normal;      
 }
 .list
 {
     list-style: none;
     color : rgb(238, 207, 121);
     display : flex;
-    width: 50%;
-    justify-content: space-between;
-    align-items: center;
-    
-    
+    width: 60%;
+    justify-content: space-around;
+    align-items: center; 
 }
 .button
 {
@@ -32,38 +27,34 @@
     height : 50px;
     border-radius: 20px;
     align-items: center;
-
 }
 .nav
 {
     display : flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width : 15%;
     align-items: center;
-
-    
-     
 }
 .line
 {
     width: 2px;
     height :50px ;
-    background-color: grey;
+    background-color: rgb(228, 153, 153);
 
 }
 .parentdiv
 {
     display : flex;
     justify-content: space-around;
-    background-color: brown;
-
+    background-color: rgb(9, 0, 0);
+    align-items: center;
+  
 }
 .nav1
 {
     display : flex;
-    width : 50%;
-    justify-content: space-between;
-    
+    width : 70%;
+    justify-content: space-around;
      
 }
 
@@ -86,4 +77,54 @@
 {
     padding-left : 90px; 
 }
+.container{
+    display: inline-block;
+  }
+  .typed-out{
+    overflow: hidden;
+    border-right: .15em solid rgb(24, 24, 24);
+    white-space: nowrap;
+    font-size: 1.6rem;
+    width: 0;
+    animation: 
+      typing 1s steps(20, end) forwards,
+      blink 1s infinite;
+}
+.typed-out1{
+    overflow: hidden;
+    border-right: .15em solid rgb(10, 10, 10);
+    white-space: nowrap;
+    font-size: 1.6rem;
+    width: 0;
+    animation: 
+      typing1 1s steps(20, end) forwards,
+      blink 1s infinite;
+}
+.typed-out2{
+    overflow: hidden;
+    border-right: .15em solid rgb(9, 9, 9);
+    white-space: nowrap;
+    font-size: 1.6rem;
+    width: 0;
+    animation: 
+      typing2 1s steps(20, end) forwards,
+      blink 1s infinite;
+}
 
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 27% }
+  }
+  @keyframes typing1 {
+    from { width: 0 }
+    to { width: 23% }
+  }
+  @keyframes typing2 {
+    from { width: 0 }
+    to { width: 26% }
+  }
+  @keyframes blink {
+    from { border-color: transparent }
+    to { border-color: rgb(247, 247, 240); }
+  }
+ 

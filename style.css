@@ -1,130 +1,123 @@
-*
-{
-    padding : 0 ; 
-    margin : 0 ; 
+* {
+  padding: 0;
+  margin: 0;
 }
 
-.heading
-{
-    font-size : 17px;
-    color : burlywood;
-    font-style: normal;      
+.heading {
+  font-size: 17px;
+  color: burlywood;
+  font-style: normal;
 }
-.list
-{
-    list-style: none;
-    color : rgb(238, 207, 121);
-    display : flex;
-    width: 60%;
-    justify-content: space-around;
-    align-items: center; 
+.list {
+  list-style: none;
+  color: rgb(238, 207, 121);
+  display: flex;
+  width: 60%;
+  justify-content: space-around;
+  align-items: center;
 }
-.button
-{
-    background-color: rgb(241, 151, 91);
-    color : beige;
-    width : 150px;
-    height : 50px;
-    border-radius: 20px;
-    align-items: center;
+.button {
+  background-color: rgb(241, 151, 91);
+  color: beige;
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  align-items: center;
 }
-.nav
-{
-    display : flex;
-    justify-content: space-around;
-    width : 15%;
-    align-items: center;
+.nav {
+  display: flex;
+  justify-content: space-around;
+  width: 15%;
+  align-items: center;
 }
-.line
-{
-    width: 2px;
-    height :50px ;
-    background-color: rgb(228, 153, 153);
-
+.line {
+  width: 2px;
+  height: 50px;
+  background-color: rgb(228, 153, 153);
 }
-.parentdiv
-{
-    display : flex;
-    justify-content: space-around;
-    background-color: rgb(9, 0, 0);
-    align-items: center;
-  
+.parentdiv {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(9, 0, 0);
+  align-items: center;
 }
-.nav1
-{
-    display : flex;
-    width : 70%;
-    justify-content: space-around;
-     
+.nav1 {
+  display: flex;
+  width: 70%;
+  justify-content: space-around;
 }
 
-.aboutMe
-{
-    color : darkcyan;
-    padding-left : 5%;
+.aboutMe {
+  color: darkcyan;
+  padding-left: 5%;
+}
+.para {
+  font-size: 25px;
+  justify-content: center;
+}
+.text {
+  display: flex;
+}
+.image {
+  padding-left: 90px;
+}
+.container {
+  display: inline-block;
+}
+.typed-out {
+  overflow: hidden;
+  border-right: 0.15em solid rgb(24, 24, 24);
+  white-space: nowrap;
+  font-size: 1.6rem;
+  width: 0;
+  animation: typing 1s steps(20, end) forwards, blink 1s infinite;
+}
+.typed-out1 {
+  overflow: hidden;
+  border-right: 0.15em solid rgb(10, 10, 10);
+  white-space: nowrap;
+  font-size: 1.6rem;
+  width: 0;
+  animation: typing1 1s steps(20, end) forwards, blink 1s infinite;
+}
+.typed-out2 {
+  overflow: hidden;
+  border-right: 0.15em solid rgb(9, 9, 9);
+  white-space: nowrap;
+  font-size: 1.6rem;
+  width: 0;
+  animation: typing2 1s steps(20, end) forwards, blink 1s infinite;
+}
 
-}
-.para
-{
-    font-size : 25px; 
-    justify-content: center;
-}
-.text
-{
-    display : flex;
-}
-.image
-{
-    padding-left : 90px; 
-}
-.container{
-    display: inline-block;
-  }
-  .typed-out{
-    overflow: hidden;
-    border-right: .15em solid rgb(24, 24, 24);
-    white-space: nowrap;
-    font-size: 1.6rem;
+@keyframes typing {
+  from {
     width: 0;
-    animation: 
-      typing 1s steps(20, end) forwards,
-      blink 1s infinite;
+  }
+  to {
+    width: 27%;
+  }
 }
-.typed-out1{
-    overflow: hidden;
-    border-right: .15em solid rgb(10, 10, 10);
-    white-space: nowrap;
-    font-size: 1.6rem;
+@keyframes typing1 {
+  from {
     width: 0;
-    animation: 
-      typing1 1s steps(20, end) forwards,
-      blink 1s infinite;
+  }
+  to {
+    width: 23%;
+  }
 }
-.typed-out2{
-    overflow: hidden;
-    border-right: .15em solid rgb(9, 9, 9);
-    white-space: nowrap;
-    font-size: 1.6rem;
+@keyframes typing2 {
+  from {
     width: 0;
-    animation: 
-      typing2 1s steps(20, end) forwards,
-      blink 1s infinite;
+  }
+  to {
+    width: 26%;
+  }
 }
-
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 27% }
+@keyframes blink {
+  from {
+    border-color: transparent;
   }
-  @keyframes typing1 {
-    from { width: 0 }
-    to { width: 23% }
+  to {
+    border-color: rgb(247, 247, 240);
   }
-  @keyframes typing2 {
-    from { width: 0 }
-    to { width: 26% }
-  }
-  @keyframes blink {
-    from { border-color: transparent }
-    to { border-color: rgb(247, 247, 240); }
-  }
- 
+}
